@@ -16,7 +16,7 @@ document.getElementById('tidak').addEventListener('click', function(){
         button.remove();
     });
     var img = document.getElementById('detektif');
-    img.src = './resources/student.png';
+    img.src = '/resources/student.png';
     document.getElementById('judul').innerText = 'Anda Benar!';
     document.querySelector('.main > .container').style.backgroundColor = '#6FD240';
     document.querySelector('.main > .container > p').innerText = 'Anda adalah seorang Mahasiswa'
